@@ -4,18 +4,29 @@ color:#333;
 font-family: Arial, sans-serif;
 margin: 0;
 padding: 0;
+font-size: 1rem;
+line-height: 1.6;
 }
-h1 {text-align: center;
+html {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
     font-weight: bold;
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 10px;
+    margin-bottom: 20 px;
+    font-size: 2.5rem;
+    line-height: 1.2
 }
 .importante {
     text-align: center;
     font-weight: bold;
     font-style: italic;
     margin: 10px auto;
+    font-size: 1.2rem
 }
 header {
     background-color:#69bd45;
@@ -31,17 +42,18 @@ footer{
     padding: 20px 0;
 text-align: center;
 }
-.footer-content{max-width: 800px;
+.footer-content{
+max-width: 800px;
 margin: 0 auto;
 padding: 0 15px;}
 nav {
-backgroud-color: #2f8247;
+background-color: #2f8247;
 padding: 10px;
 }
 nav ul {
 list-style: none;
 margin: 0;
-paddig: 0;
+padding: 0;
 text-align: center;
 }
 nav ul li{
@@ -53,6 +65,7 @@ color: #fff;
 text-decoration: none;
 padding: 8px 16px;
 border-radius: 5px;
+font-size: 1.1rem;
 }
 nav ul li a:hover {
     background-color:#2f8247
@@ -60,11 +73,16 @@ nav ul li a:hover {
 img {
     display: block;
     margin: 0 auto;
-    max-width; 100%
+    max-width: 100%
+    width: auto;
+    height: auto;
     border: 3px solid #69bd45
     border-radius: 10px;
     }
 .content-wrapper {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+    border-radius: 8px;
     max-width: 960px;
     margin: 20px auto;
     padding: 0 15px;
